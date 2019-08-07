@@ -33,14 +33,14 @@ Em 2015 foi lançado pela Microsoft um editor de código destinado ao desenvolvi
 
 #### Extensões para o VSCode
 
-- Dracula Official
+- Dracula Official <br>
 Apenas um tema, não muda nada para o desenvolvimento.
 
-- Material Icon Theme
+- Material Icon Theme <br>
 Adiciona ícones aos arquivos dos projetos para facilitar a visualização.
 
-- Rocketseat ReactJS
+- Rocketseat ReactJS <br>
 Snippets para facilitar o desenvolvimento no React.
 
-- Rocketseat React Native
+- Rocketseat React Native <br>
 Snippets para facilitar o desenvolvimento no React Native.
