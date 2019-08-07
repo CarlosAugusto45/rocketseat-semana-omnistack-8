@@ -1,0 +1,21 @@
+{
+  "name": "rocketseat-semana-omnistack-8",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/devmatsu/rocketseat-semana-omnistack-8",
+  "author": "devmatsu <devmatsu@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.8"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "nodemon": "^1.19.1"
+  }
+}
