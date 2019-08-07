@@ -31,3 +31,16 @@ Para o Windows, você deve executar no terminal o seguinte comando: `$ choco ins
 ### Visual Studio Code
 Em 2015 foi lançado pela Microsoft um editor de código destinado ao desenvolvimento de aplicações web chamado de Visual Studio Code, ou simplesmente VSCode. Anunciada durante o Build, evento voltado a desenvolvedores que ocorre nos Estados Unidos anualmente, trata-se de uma ferramenta leve e multiplataforma que está disponível tanto para Windows, quanto para Mac OS e Linux e atende a uma gama enorme de projetos, não apenas ASP.NET, como também Node.js. Adicionalmente, o editor possui suporte à sintaxe de diversas linguagens como Python, Ruby, C++. Para a instalação, só fazer o download no seguinte [link](https://code.visualstudio.com/download).
 
+#### Extensões para o VSCode
+
+- Dracula Official
+Apenas um tema, não muda nada para o desenvolvimento.
+
+- Material Icon Theme
+Adiciona ícones aos arquivos dos projetos para facilitar a visualização.
+
+- Rocketseat ReactJS
+Snippets para facilitar o desenvolvimento no React.
+
+- Rocketseat React Native
+Snippets para facilitar o desenvolvimento no React Native.
