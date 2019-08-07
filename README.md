@@ -44,3 +44,13 @@ Snippets para facilitar o desenvolvimento no React.
 
 - Rocketseat React Native <br>
 Snippets para facilitar o desenvolvimento no React Native.
+
+#### Fonte Fira Code
+Para a instalação do FireCode só fazer o download nesse [link](https://github.com/tonsky/FiraCode). <br>
+Porém para fazer a font-ligature, deve ser feito o seguinte: <br>
+Entrar nas opções: File > Preferences > Settings > JSON Settings. (Ou Ctrl+Shift+P e escrever ´>Settings (JSON)´) <br>
+E deve colocar o seguinte código dentro do objeto:
+````javascript
+"editor.fontFamily": "Fira Code",
+"editor.fontLigatures": true
+````
