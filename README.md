@@ -15,8 +15,10 @@ O Node.js é uma plataforma para linguagem Javascript que permite rodar a aplica
 A versão que devemos utilizar, sempre deve ser a LTS (Long Term Support). Para o download do mesmo, é melhor fazer a instalação através do gerenciador de pacotes. 
 
 #### Instalação
-Apenas seguir o passo-a-passo do seguinte [link](https://nodejs.org/en/download/package-manager/). <br>
-Lembrando que ao instalar o Node, vem incluso com o gerenciador de pacotes do Node.
-
+Para o Windows, você deve ter instalado o Chocolatey (gerenciador de pacote do Windows). Após isso, deve executar no terminal o seguinte comando: `$  cinst nodejs.install --version 10.16.1` <br>
+Lembrando que ao instalar o Node, vem incluso com o gerenciador de pacotes do Node (NPM). <br>
+Para os outros sistemas operacionais, seguir o passo-a-passo do seguinte [link](https://nodejs.org/en/download/package-manager/).
+ 
 #### NPM (Node Package Manager)
 NPM é o nome reduzido de Node Package Manager (Gerenciador de Pacotes do Node). A NPM é duas coisas: Primeiro, e mais importante, é um repositório online para publicação de projetos de código aberto para o Node.js; segundo, ele é um utilitário de linha de comando que interage com este repositório online, que ajuda na instalação de pacotes, gerenciamento de versão e gerenciamento de dependências.
+
