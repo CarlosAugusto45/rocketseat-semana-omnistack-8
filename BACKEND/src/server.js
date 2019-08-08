@@ -6,10 +6,10 @@ const routes = require("./routes");
 
 const server = express();
 
-mongoose.connect(
-  "mongodb+srv://matsu:matsu123@devcluster-em0zg.mongodb.net/omnistack?retryWrites=true&w=majority",
-  { useNewUrlParser: true }
-);
+const mongoURL = 'mongodb+srv://devmatsu:rocketseat@devcluster-em0zg.mongodb.net/omnistack?retryWrites=true&w=majority';
+//const mongoURL = 'mongodb://localhost/Tindev';
+
+mongoose.connect(mongoURL, { useNewUrlParser: true });
 
 server.use(cors());
 server.use(express.json());
