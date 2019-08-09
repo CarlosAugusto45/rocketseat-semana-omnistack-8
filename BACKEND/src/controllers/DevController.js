@@ -1,5 +1,6 @@
 const axios = require("axios");
 const Dev = require("../models/Dev");
+const request = require('request');
 
 module.exports = {
   async index(req, res) {
@@ -28,19 +29,28 @@ module.exports = {
       return res.json(userExists);
     }
 
-    const response = await axios.get(
-      `https://api.github.com/users/${username}`
+    //const response = await axios.get(`https://api.github.com/users/${username}`);
+    const response = await request(
+      {
+        uri: `https://api.github.com/users/${username}`,
+        method: "GET",
+        proxy: "http://login:password@host:port",
+        json: true,
+        headers: { 'user-agent': 'node.js' }
+      },
+      async (error, response, body) => {
+        const { name, bio, avatar_url: avatar } = response.body;
+
+        const dev = await Dev.create({
+          name,
+          user: username,
+          bio,
+          avatar
+        });
+
+        return res.json(dev);
+      }
     );
 
-    const { name, bio, avatar_url: avatar } = response.data;
-
-    const dev = await Dev.create({
-      name,
-      user: username,
-      bio,
-      avatar
-    });
-
-    return res.json(dev);
   }
 };
